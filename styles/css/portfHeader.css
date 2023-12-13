@@ -1,0 +1,72 @@
+body {
+  background: linear-gradient(to right, rgb(44, 185, 185), #177093);
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 200;
+}
+a:hover{
+    transform: scaleX(20);
+    color: rgb(53, 53, 211);
+}
+.portfolio {
+  width: 80% !important;
+  margin: 0 auto !important;
+}
+.portfolio h1 {
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+}
+
+/* ----------------SLIDER--------------- */
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 7% 0;
+}
+
+.carousel-slide {
+  display: none;
+  width: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-prev {
+  position: absolute;
+  bottom: 45%;
+  transform: translateY(-50%);
+  font-size: 44px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.carousel-next {
+  position: absolute;
+  bottom: 45%;
+  right: 0%;
+  transform: translateY(-50%);
+  font-size: 44px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.carousel-prev:hover,
+.carousel-next:hover {
+  color: rgb(94, 72, 220);
+}
+
+/* -------------------------------------- */
