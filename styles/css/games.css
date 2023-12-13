@@ -104,3 +104,10 @@ body{
 .col:hover h2{
     text-align: left;
 }
+
+@media (max-width: 576px){
+   .container{
+    display: flex;
+    flex-direction: column;
+   } 
+}
