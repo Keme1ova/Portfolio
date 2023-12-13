@@ -11,6 +11,7 @@ body {
     flex-direction: column;
     font-family: sans-serif;
     background: linear-gradient(to right, rgb(44, 185, 185), #177093);
+    padding-bottom: 5%;
   }
 
   .my_gallery {
@@ -33,6 +34,7 @@ body {
     column-gap: 1.5rem;
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 5%;
   }
 
   .grid-container div {
@@ -71,3 +73,5 @@ body {
 
   /* ---------------------- */
   /*  */
+
+ 
