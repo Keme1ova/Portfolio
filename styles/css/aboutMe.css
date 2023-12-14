@@ -115,7 +115,7 @@ body {
       width: 100%;
       height: 250px;
       clip-path: polygon(0 0, 100% 0, 100% 71%, 0 100%);
-      background: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(60, 90, 136, 0.151), #fa5f64bb) , url('/var/folders/7z/rcvk1mdj77z63std73_0s5_c0000gn/T/ru.keepcoder.Telegram/telegram-peer-photo-size-2-2798455945836996574-1-0-0.jpg');
+      background: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(60, 90, 136, 0.151), #fa5f64bb) , url('./../../images/myPhoto1.jpg');
       background-position: center;
       background-size: cover;
   }
